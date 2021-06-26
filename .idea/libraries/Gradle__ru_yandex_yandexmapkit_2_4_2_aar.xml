@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: ru.yandex:yandexmapkit:2.4.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b93f8731c806fece104c45d465baabae/yandexmapkit-2.4.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b93f8731c806fece104c45d465baabae/yandexmapkit-2.4.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b93f8731c806fece104c45d465baabae/yandexmapkit-2.4.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b93f8731c806fece104c45d465baabae/yandexmapkit-2.4.2/jars/libs/classes-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

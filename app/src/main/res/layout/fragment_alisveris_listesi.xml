@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".fragment.AlisverisListesiFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="Alışveriş Listesi"
+        android:textColor="@color/black"
+        android:textSize="17dp"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnaddnew"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="YENİ EKLE"></Button>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="TAMAMLANANLAR"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:id="@+id/txtTamamlanan"
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:text="0/0"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecyclerViewAlisverisListele"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"></androidx.recyclerview.widget.RecyclerView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:text="PAYLAŞ"
+            android:layout_height="wrap_content">
+        </Button>
+
+        <Button
+            android:id="@+id/btnMap"
+            android:layout_width="wrap_content"
+            android:text="HARİTADA GÖR"
+            android:layout_height="wrap_content">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

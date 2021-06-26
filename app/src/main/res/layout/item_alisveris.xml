@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="TARİH :"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/itemtarih"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="ADI :"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/itemisim"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="FİYATI :"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/itemfiyatı"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="ADET :"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/itemadedi"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:text="ALIŞVERİŞ YAPILACAK YER :"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/itemkonumu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="LOKASYON :"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/itemlokasyon1"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:hint="latitude"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:id="@+id/itemlokasyon2"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:hint="longitude"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:text="NOT :"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/itemnot"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnupdate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="GÜNCELLE"
+            android:layout_height="40dp"></Button>
+
+        <Button
+            android:id="@+id/btndelete"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="SİL"
+            android:layout_height="40dp"></Button>
+    </LinearLayout>
+</LinearLayout>
